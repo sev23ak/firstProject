@@ -1,0 +1,372 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.navBar{
+    display:flex;
+}
+.logo{
+    background-color: #1d58d7;
+    color: white;
+    line-height: 50px;
+    width:25%;
+    text-align: right;
+    display:flex;
+    align-items: center;
+    justify-content: flex-end;
+    font-size: larger;
+    padding-right: 10px;
+
+}
+.search{
+    display: flex;
+
+}
+.search>form{
+    position:absolute;
+}
+.search1{
+
+}
+.button{
+    font-size: 20px;
+    padding: 15px;
+    color: #a7a7a7;
+    background-color: #efefef;
+    border: 0;
+    outline: 0;
+}
+.input1{
+    font-size: 20px;
+    padding: 15px;
+    color: #a7a7a7;
+    background-color: #efefef;
+    border: 0;
+    outline: 0;
+    width: 80%;
+    transition: 1s;
+
+}
+.input2 {
+    font-size: 20px;
+    color: #a7a7a7;
+    padding: 15px 0;
+    background-color: #efefef;
+    border: 0;
+    outline: 0;
+    width: 0;
+    transition: 1s;
+}
+.block{
+    display: flex;
+    list-style-type: none;
+    margin-left: 77px;
+    align-items: center;
+}
+.about{
+    color: #a7a7a7;
+    padding-bottom: 14px;
+    padding-top: 14px;
+
+}
+.about:hover{
+    color: #a7a7a7;
+    border-bottom: 2px solid #a7a7a7;
+    cursor: pointer;
+}
+.cooperation{
+    margin-left: 27px;
+    color: #a7a7a7;
+    padding-bottom: 14px;
+    padding-top: 14px;
+}
+.cooperation:hover{
+    color: #a7a7a7;
+    border-bottom: 2px solid #a7a7a7;
+    cursor: pointer;
+}
+.contact{
+    margin-left: 27px;
+    color: #a7a7a7;
+    padding-bottom: 14px;
+    padding-top: 14px;
+
+}
+.contact:hover{
+    color: #a7a7a7;
+    border-bottom: 2px solid #a7a7a7;
+    cursor: pointer;
+}
+.menu{
+    display: flex;
+    list-style-type: none;
+    margin-left: 200px;
+    align-items: center;
+}
+.nature{
+    color: #106ae2;
+    padding-bottom: 14px;
+    padding-top: 14px;
+
+}
+.nature:hover{
+    color: #106ae2;
+    border-bottom: 2px solid #106ae2;
+    cursor: pointer;
+}
+.people{
+     margin-left: 27px;
+     color: #106ae2;
+     padding-bottom: 14px;
+     padding-top: 14px;
+
+ }
+.people:hover{
+    color: #106ae2;
+    border-bottom: 2px solid #106ae2;
+    cursor: pointer;
+}
+.trips{
+    margin-left: 27px;
+    color: #106ae2;
+    padding-bottom: 14px;
+    padding-top: 14px;
+
+}
+.trips:hover{
+    color: #106ae2;
+    border-bottom: 2px solid #106ae2;
+    cursor: pointer;
+}
+.animals{
+    margin-left: 27px;
+    color: #106ae2;
+    padding-bottom: 14px;
+    padding-top: 14px;
+
+}
+.animals:hover{
+    color: #106ae2;
+    border-bottom: 2px solid #106ae2;
+    cursor: pointer;
+}
+.fashion{
+    margin-left: 27px;
+    color: #106ae2;
+    padding-bottom: 14px;
+    padding-top: 14px;
+
+}
+.fashion:hover{
+    color: #106ae2;
+    border-bottom: 2px solid #106ae2;
+    cursor: pointer;
+}
+.tech{
+    margin-left: 27px;
+    color: #106ae2;
+    padding-bottom: 14px;
+    padding-top: 14px;
+
+}
+.tech:hover{
+    color: #106ae2;
+    border-bottom: 2px solid #106ae2;
+    cursor: pointer;
+}
+.author{
+    height: 100px;
+    width: 100px!important;
+    position: absolute;
+    top: 35%;
+    left: 50%;
+    transform:translate(-50%,-50%);
+
+
+}
+.text{
+    font-size: 35px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform:translate(-50%,-50%);
+    color: white;
+}
+.homeList{
+    margin-left: 200px;
+    margin-right: 200px;
+    padding-top: 25px;
+}
+.cardOne{
+    display: flex;
+}
+.kent{
+    position: relative;
+    width: 430px;
+    margin-right: 9%;
+}
+.zuyg{
+    position: relative;
+    width: 430px;
+    /*float: right;*/
+}
+
+.cardImg{
+    height: 200px;
+    width: 430px;
+}
+.typeOne{
+    background-color: #d90445;
+    position: absolute;
+    left: 3%;
+    bottom: 80px;
+    font-size: 22px;
+    padding: 5px;
+
+}
+.aboutThis{
+    font-size: 18px;
+
+}
+.dataThis{
+    color: #cecece;
+    display: inline-block;
+    font-size: 10px;
+}
+.general{
+    margin-top: 30px;
+    margin-left: 25px;
+    margin-right: 25px;
+    /*display:flex;*/
+    position: relative;
+}
+.generalImg{
+    width: 900px;
+    height: 300px;
+    /*position:relative;*/
+}
+.generalAbout{
+    color: white;
+    position: absolute;
+    /*margin-left: 20%;*/
+    /*margin-top: 150px;*/
+    font-size: 30px;
+    top: 40%;
+    left: 7%;
+    width: 80%;
+    text-align: center;
+}
+.generalAbouturish{
+    color: white;
+
+    font-size: 15px;
+}
+.generalData{
+position: absolute;
+    right: 5%;
+    bottom: 10%;
+    margin-left: 20%;
+    margin-top: 150px;
+    color: #cecece;
+}
+.xary{
+    background-color: #d90445;
+    position: absolute;
+    left: 3%;
+    bottom: 25px;
+    font-size: 22px;
+    padding: 5px;
+
+}
+.mbLayerOne{
+    display: flex;
+    padding-top: 2%;
+}
+.lemon{
+    width: 310px;
+    height: 220px;
+}
+.lemonText,.bookText,.buildingText,.layer3-4ImageText{
+    width: 300px;
+}
+.layerThree{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    width: 100%;
+}
+.dark{
+    position: absolute;
+    bottom: 5%;
+}
+.zoom{
+    position: relative;
+}
+.mb-4{
+    margin-right: 3%;
+    margin-left: -2%;
+}
+.textTrip{
+    position: absolute;
+    top: 50%;
+}
+.textImg{
+    position: relative;
+
+}
+.tripData{
+    position: absolute;
+    top: 50%;
+    color: white;
+    right: 10px;
+}
+.inText{
+    text-align: center;
+    margin-bottom: 40px;
+}
+.tripButton{
+    margin-top: 20px;
+    background-color: #1d58d7;
+    color: white;
+    font-size: 15px;
+    border: 0;
+    padding:5px 30px 5px 30px;
+}
+.footer{
+    padding-top: 150px;
+    padding-bottom: 150px;
+    background-color: #1d58d7;
+    text-align: center;
+
+}
+.news{
+    font-size: 25px;
+}
+.ss{
+    color: white;
+}
+.logg{
+    margin-top: 20px;
+    font-size: 25px;
+}
+.logg input{
+    border-radius: 25px;
+    border: 0;
+    padding: 5px;
+}
+.logg button{
+    border-radius: 25px;
+    border: 0;
+    color: blue;
+    padding:5px 20px;
+
+}
+.foo{
+    text-align: center;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+.foo span{
+    color: red;
+}
